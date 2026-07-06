@@ -54,48 +54,6 @@ body {
   color: var(--ink);
 }
 
-.status {
-  font-size: 0.92rem;
-  color: var(--muted);
-  margin-top: 12px;
-  min-height: 1.3em;
-}
-
-.rule {
-  border: none;
-  border-top: 1px solid var(--rule);
-  margin: 28px 0;
-}
-
-.ledger {
-  display: grid;
-  gap: 0;
-  text-align: left;
-}
-
-.entry {
-  padding: 16px 2px;
-  border-bottom: 1px solid var(--rule);
-}
-.entry:first-child { border-top: 1px solid var(--rule); }
-
-dt {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.64rem;
-  font-weight: 700;
-  color: var(--muted);
-  margin-bottom: 7px;
-}
-
-.text {
-  font-size: 1.18rem;
-  line-height: 1.4;
-  font-weight: 500;
-}
-.answer { color: var(--red); font-weight: 600; }
-.hope { color: var(--green); font-weight: 600; }
-
 .btn {
   font: inherit;
   font-weight: 700;
@@ -151,5 +109,4 @@ body.born .btn:hover { background: var(--green); border-color: var(--green); }
 
 @media (max-width: 480px) {
   .subtitle { font-size: 1.15rem; }
-  .text { font-size: 1.08rem; }
 }
