@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 1200px; height: 630px; }
+    body {
+      background: #f4efe2;
+      color: #1b1b1a;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 64px 80px;
+      position: relative;
+    }
+    .kicker {
+      text-transform: uppercase;
+      letter-spacing: 0.24em;
+      font-size: 22px;
+      font-weight: 700;
+      color: #857c68;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #1b1b1a;
+    }
+    .verdict {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 300px;
+      line-height: 0.9;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #d7263d;
+      margin: 8px 0;
+    }
+    .subtitle {
+      font-family: Georgia, "Times New Roman", serif;
+      font-style: italic;
+      font-size: 46px;
+      margin-top: 8px;
+    }
+    .strip {
+      position: absolute;
+      right: 80px;
+      bottom: 60px;
+      text-align: right;
+      max-width: 520px;
+    }
+    .q { font-size: 26px; color: #857c68; font-weight: 700; }
+    .a { font-size: 30px; color: #d7263d; font-weight: 700; margin-top: 6px; }
+    .emoji { font-size: 120px; position: absolute; top: 70px; right: 90px; }
+  </style>
+</head>
+<body>
+  <div class="emoji">🤰</div>
+  <p class="kicker">Je l' se Ivana porodila?</p>
+  <h1 class="verdict">NE.</h1>
+  <p class="subtitle">Filip i dalje nije stigao.</p>
+  <div class="strip">
+    <p class="q">„MA TI ĆEŠ TO ZA PET MINUTA!"</p>
+    <p class="a">Javi mi svoj broj kad kreneš da rađaš umesto mene.</p>
+  </div>
+</body>
+</html>

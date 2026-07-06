@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4efe2"/>
+
+  <!-- kicker -->
+  <text x="80" y="110" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="26" font-weight="700" letter-spacing="6" fill="#857c68">JE L' SE IVANA PORODILA?</text>
+  <line x1="80" y1="135" x2="1120" y2="135" stroke="#1b1b1a" stroke-width="3"/>
+
+  <!-- verdict -->
+  <text x="74" y="430" font-family="Georgia, 'Times New Roman', serif"
+        font-size="300" font-weight="700" letter-spacing="-4" fill="#d7263d">NE.</text>
+
+  <!-- subtitle -->
+  <text x="80" y="510" font-family="Georgia, 'Times New Roman', serif"
+        font-size="48" font-style="italic" fill="#1b1b1a">Filip i dalje nije stigao.</text>
+
+  <!-- decorative dot grid / belly -->
+  <circle cx="1050" cy="250" r="150" fill="none" stroke="#d7263d" stroke-width="6" opacity="0.25"/>
+
+  <!-- bottom strip -->
+  <text x="1120" y="565" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="24" font-weight="700" fill="#857c68">„MA TI ĆEŠ TO ZA PET MINUTA!"</text>
+  <text x="1120" y="600" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+        font-size="28" font-weight="700" fill="#d7263d">— Javi mi broj kad kreneš da rađaš umesto mene.</text>
+</svg>
