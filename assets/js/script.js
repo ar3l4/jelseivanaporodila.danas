@@ -67,21 +67,28 @@ function setupProslava() {
   postaviOdgovor("DA!");
   el.subtitle.textContent = "Filip je konačno stigao! 🎉";
   el.shuffle.textContent = "Još konfeta! 🎉";
-  el.shuffle.addEventListener("click", konfete);
-  konfete();
+  el.shuffle.addEventListener("click", () => konfete(80));
+  // veliki uvodni prasak u par talasa
+  konfete(90);
+  setTimeout(() => konfete(60), 400);
+  setTimeout(() => konfete(60), 900);
 }
 
-// —— Konfete (jednostavan emoji „burst") ——
-function konfete() {
-  const emoji = ["🎉", "👶", "🍼", "🎈", "💙", "✨"];
-  for (let i = 0; i < 36; i++) {
+// —— Konfete (emoji „burst") ——
+const smanjiPokret = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+function konfete(broj = 60) {
+  if (smanjiPokret) return; // bez pretrpavanja DOM-a kad je pokret isključen
+  const emoji = ["🎉", "👶", "🍼", "🎈", "💙", "💗", "✨", "⭐", "🎊"];
+  for (let i = 0; i < broj; i++) {
     const k = document.createElement("span");
     k.className = "konfeta";
     k.textContent = emoji[Math.floor(Math.random() * emoji.length)];
     k.style.left = Math.random() * 100 + "vw";
-    k.style.fontSize = 18 + Math.random() * 22 + "px";
-    k.style.animationDelay = Math.random() * 0.4 + "s";
-    k.style.animationDuration = 2.4 + Math.random() * 1.8 + "s";
+    k.style.fontSize = 20 + Math.random() * 34 + "px";
+    k.style.setProperty("--dx", (Math.random() * 40 - 20) + "vw");   // bočno klizanje
+    k.style.setProperty("--rot", (Math.random() * 720 - 360) + "deg"); // nasumična rotacija
+    k.style.animationDelay = Math.random() * 0.5 + "s";
+    k.style.animationDuration = 2.6 + Math.random() * 2.2 + "s";
     document.body.appendChild(k);
     k.addEventListener("animationend", () => k.remove());
   }
