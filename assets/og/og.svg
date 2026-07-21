@@ -8,18 +8,17 @@
 
   <!-- verdict -->
   <text x="74" y="430" font-family="Georgia, 'Times New Roman', serif"
-        font-size="300" font-weight="700" letter-spacing="-4" fill="#d7263d">NE.</text>
+        font-size="300" font-weight="700" letter-spacing="-4" fill="#2f7d5b">DA!</text>
 
   <!-- subtitle -->
   <text x="80" y="510" font-family="Georgia, 'Times New Roman', serif"
-        font-size="48" font-style="italic" fill="#1b1b1a">Filip i dalje nije stigao.</text>
+        font-size="48" font-style="italic" fill="#1b1b1a">Filip je konačno stigao! 🎉</text>
 
-  <!-- decorative dot grid / belly -->
-  <circle cx="1050" cy="250" r="150" fill="none" stroke="#d7263d" stroke-width="6" opacity="0.25"/>
+  <!-- decorative circle / balloon -->
+  <circle cx="1050" cy="250" r="150" fill="none" stroke="#2f7d5b" stroke-width="6" opacity="0.25"/>
+  <text x="1050" y="300" text-anchor="middle" font-size="150">👶</text>
 
   <!-- bottom strip -->
   <text x="1120" y="565" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
-        font-size="24" font-weight="700" fill="#857c68">„MA TI ĆEŠ TO ZA PET MINUTA!"</text>
-  <text x="1120" y="600" text-anchor="end" font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
-        font-size="28" font-weight="700" fill="#d7263d">— Javi mi broj kad kreneš da rađaš umesto mene.</text>
+        font-size="24" font-weight="700" fill="#857c68">„STIGAO JE! KONAČNO!"</text>
 </svg>
