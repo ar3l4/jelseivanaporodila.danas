@@ -1,7 +1,7 @@
 // ═══════════════════════════════════════════════════════════
 //  ⚑  KAD SE FILIP RODI: promeni sledeći red u  true
 //     i ceo sajt postaje proslava ("DA! 🎉").
-const PORODILA_SE = false;
+const PORODILA_SE = true;
 // ═══════════════════════════════════════════════════════════
 
 // —— Sadržaj ——————————————————————————————————————————————
